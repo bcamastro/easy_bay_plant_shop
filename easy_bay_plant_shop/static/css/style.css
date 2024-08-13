@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    width: 650px;
+    margin: 0px auto;
+}
+#navbar {
+    border-bottom: 3px solid black;
+}
+#navtop, #navbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    background-color: #00d9c5;
+    height: 30px;
+}
+
+#navtop a {
+    text-decoration: none;
+    color: black;
+}
+.searchbar {
+    height: 30px;
+    width: 300px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.search-wrapper {
+    position:relative
+}
+.search-wrapper img {
+    position: absolute;
+    height: 20px;
+    top: 8px;
+    right: 5px
+}
+.cart{
+    height: 30px;
+}
+#maincontent {
+    text-align: center;
+}
+#maincontent h2 {
+    margin: 20px;
+}
+.main_top, .top_left, .greenish_box {
+    display: flex;
+}
+.greenish_box {
+    background-color: #00d9c5;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+}
+.succulent_pics, .greenish_box {
+    width: 200px;
+}
+#discover_and_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.arrow {
+    height: 20px;
+}
+.top_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.aloe {
+    width: 100%;
+}
+.soothing_aloe {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 30px;
+    background-color: #00d9c5;
+    color: white;
+    justify-content: center;
+}
+.main_bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #64fff18a;
+    align-items: center;
+    height: 150px;
+}
+.succulent img{
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#cookies{
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    width: 650px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#cookies button {
+    background-color: #00d9c5;
+    width: 70px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+}
